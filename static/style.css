@@ -15,7 +15,7 @@ ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, f
   padding: 0;
 }
 
-h2{
+h2, h3{
   font-family: 'Courier New', Courier, monospace;
   font-weight: 200;
 }
@@ -76,6 +76,18 @@ h2{
 }
 .title:active{
   color: rgba(255,255,255,0.4);
+}
+
+.subtitle{
+  margin-top: 17px;
+  opacity: 0;
+  animation: fade 2s forwards;
+  animation-delay: 1.8s;
+  transition: color 0.3s;
+  color: rgba(255,255,255,0.1);
+}
+.subtitle:active{
+  color: rgba(255,255,255,0.3);
 }
 
 .bottom-bar{
