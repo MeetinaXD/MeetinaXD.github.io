@@ -5,6 +5,9 @@ html, body{
   width: 100%;
   background-color: black;
   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 a{
   text-decoration: none !important;
