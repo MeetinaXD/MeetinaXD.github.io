@@ -2,17 +2,26 @@
 <html>
   <head>
     <title>MeetinaXD</title>
+    <link href="./static/style.css" type="text/css" rel="stylesheet" >
   </head>
   <body>
-    Welcome.
+    <div class="container">
+      <div class="nixie-clock">
+        <span class="number" id="nc-hour">17</span>
+        <span class="point" id="point-hour">.</span>
+        <span class="number" id="nc-minute">22</span>
+        <span class="point" id="point-minute">.</span>
+        <span class="number" id="nc-second">23</span>
+        <span class="point" id="point-second">.</span>
+      </div>
+
+      <h2 class="title"> A Nixie Clock's Travel </h2>
+
+      <div class="bottom-bar">
+        <a class="link" href="https://github.com/MeetinaXD">Github</a>
+        <a class="link" href="https://meetinaxd.ltiex.com">Blog</a>
+      </div>
+    </div>
   </body>
-  <style>
-    html, body{
-      padding: 0;
-      margin: 0;
-      height: 100%;
-      width: 100%;
-      background-color: black;
-    }
-  </style>
+  <script src="./static/script.js"></script>
 </html>
